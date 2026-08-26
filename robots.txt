@@ -1,0 +1,4 @@
+user-agent: *
+Allow: /
+
+sitemap: https://elevated-quality.com/sitemap.xml
