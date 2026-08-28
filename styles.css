@@ -53,9 +53,9 @@ footer{background:#03080d;border-top:1px solid #1e2931;padding:28px 0}.footer-ro
 .harness-side{animation:harnessCinematic 7s ease-in-out infinite alternate;transform-origin:58% 48%}
 @keyframes rocketCinematic{0%{transform:scale(1.06) translate3d(-1.2%,1.2%,0)}100%{transform:scale(1.17) translate3d(1.4%,-2.2%,0)}}
 @keyframes harnessCinematic{0%{transform:scale(1.07) translate3d(1%,.5%,0)}100%{transform:scale(1.15) translate3d(-1.5%,-1%,0)}}
-.cap-card{overflow:hidden}.cap-card img{transform:scale(1.04);transition:transform .8s ease;animation:cardCinematic 12s ease-in-out infinite alternate;will-change:transform}.cap-card:nth-child(even) img{animation-direction:alternate-reverse;animation-duration:14s}.cap-card:hover img{transform:scale(1.12)}
+.cap-card{overflow:hidden}.cap-card img{transform:scale(1.04);transition:transform .4s ease;animation:cardCinematic 9s ease-in-out infinite alternate;will-change:transform}.cap-card:nth-child(even) img{animation-direction:alternate-reverse;animation-duration:14s}.cap-card:hover img{transform:scale(1.12)}
 @keyframes cardCinematic{0%{transform:scale(1.04) translate3d(-1%,0,0)}100%{transform:scale(1.12) translate3d(1.5%,-1%,0)}}
-.photo-stack{overflow:hidden}.photo-main{animation:photoMainCinematic 13s ease-in-out infinite alternate;will-change:transform}.photo-small{animation:photoSmallCinematic 10s ease-in-out infinite alternate-reverse;will-change:transform}
+.photo-stack{overflow:hidden}.photo-main{animation:photoMainCinematic 10s ease-in-out infinite alternate;will-change:transform}.photo-small{animation:photoSmallCinematic 9s ease-in-out infinite alternate-reverse;will-change:transform}
 @keyframes photoMainCinematic{from{transform:scale(1.02) translate3d(-.5%,.5%,0)}to{transform:scale(1.09) translate3d(1%,-1%,0)}}
 @keyframes photoSmallCinematic{from{transform:scale(1.02)}to{transform:scale(1.08) translate3d(-1%,-1%,0)}}
 .industries{animation:industryBackground 10s ease-in-out infinite alternate;background-size:108% auto}
