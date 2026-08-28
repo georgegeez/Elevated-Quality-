@@ -49,8 +49,8 @@ footer{background:#03080d;border-top:1px solid #1e2931;padding:28px 0}.footer-ro
 
 /* Cinematic image motion — no paid video service required */
 .hero-image{will-change:transform;transform:scale(1.08)}
-.rocket-side{animation:rocketCinematic 14s ease-in-out infinite alternate;transform-origin:45% 72%}
-.harness-side{animation:harnessCinematic 11s ease-in-out infinite alternate;transform-origin:58% 48%}
+.rocket-side{animation:rocketCinematic 6s ease-in-out infinite alternate;transform-origin:45% 72%}
+.harness-side{animation:harnessCinematic 7s ease-in-out infinite alternate;transform-origin:58% 48%}
 @keyframes rocketCinematic{0%{transform:scale(1.06) translate3d(-1.2%,1.2%,0)}100%{transform:scale(1.17) translate3d(1.4%,-2.2%,0)}}
 @keyframes harnessCinematic{0%{transform:scale(1.07) translate3d(1%,.5%,0)}100%{transform:scale(1.15) translate3d(-1.5%,-1%,0)}}
 .cap-card{overflow:hidden}.cap-card img{transform:scale(1.04);transition:transform .8s ease;animation:cardCinematic 12s ease-in-out infinite alternate;will-change:transform}.cap-card:nth-child(even) img{animation-direction:alternate-reverse;animation-duration:14s}.cap-card:hover img{transform:scale(1.12)}
@@ -58,7 +58,7 @@ footer{background:#03080d;border-top:1px solid #1e2931;padding:28px 0}.footer-ro
 .photo-stack{overflow:hidden}.photo-main{animation:photoMainCinematic 13s ease-in-out infinite alternate;will-change:transform}.photo-small{animation:photoSmallCinematic 10s ease-in-out infinite alternate-reverse;will-change:transform}
 @keyframes photoMainCinematic{from{transform:scale(1.02) translate3d(-.5%,.5%,0)}to{transform:scale(1.09) translate3d(1%,-1%,0)}}
 @keyframes photoSmallCinematic{from{transform:scale(1.02)}to{transform:scale(1.08) translate3d(-1%,-1%,0)}}
-.industries{animation:industryBackground 18s ease-in-out infinite alternate;background-size:108% auto}
+.industries{animation:industryBackground 10s ease-in-out infinite alternate;background-size:108% auto}
 @keyframes industryBackground{from{background-position:center center}to{background-position:52% 47%}}
 @media (prefers-reduced-motion:reduce){.rocket-side,.harness-side,.cap-card img,.photo-main,.photo-small,.industries{animation:none!important;transform:none!important}}
 
